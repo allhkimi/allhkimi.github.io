@@ -35,7 +35,7 @@
 }
 
 #year1sem1 .view-more:hover {
-    background-color: #e2264b; /* Darker shade for hover effect */
+    background-color: #F85C70; /* Darker shade for hover effect */
 }
 
 /* More content section */
@@ -49,7 +49,7 @@
 /* Card header with icon */
 #year1sem1 .card-header.has-icon i {
     font-size: 24px;
-    color: #dc3545;
+    color: #F85C70;
 }
 
 /* Card style */
