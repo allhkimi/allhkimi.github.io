@@ -1,0 +1,39 @@
+/* Custom styles for the section */
+#year1sem1 {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.text-danger {
+    color: #e74c3c !important;
+}
