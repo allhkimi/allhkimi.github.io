@@ -78,7 +78,10 @@
 .subject-image {
     width: 100%;
     height: auto;
-    border-radius: 15px; /* Curved edges */
-    margin-bottom: 15px; /* Space between image and title */
+    max-height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
+
 
