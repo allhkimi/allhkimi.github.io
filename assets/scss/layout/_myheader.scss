@@ -1,8 +1,8 @@
 .header {
     position: relative;
-    height: 314px; // Adjusted height to fit the image
-    min-height: 314px; // Adjusted min-height to fit the image
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/imgs/myheader.jpg');
+    height: 314px; 
+    min-height: 314px; 
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../imgs/myheader.jpg'); // Ensure the path is correct
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
