@@ -121,65 +121,6 @@
     color: #ff5733; /* Add hover effect color */
 }
 
-/* Header content styling */
-.header-content {
-    z-index: 1; /* Ensures content is above the background image */
-}
-
-.header-title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0.5rem 0;
-}
-
-.header-subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
-.header-mono {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-}
-
-/* Button styling */
-.btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #ff5733; /* Add hover color */
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .header {
-        height: auto; /* Adjust height for smaller screens */
-        padding: 20px;
-    }
-
-    .header-title {
-        font-size: 2rem;
-    }
-
-    .header-subtitle {
-        font-size: 1.2rem;
-    }
-
-    .header-mono {
-        font-size: 1rem;
-    }
-
-    .btn {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-    }
-}
 
 
 
