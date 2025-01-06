@@ -84,4 +84,41 @@
     margin-bottom: 10px;
 }
 
+/* Style for the header image */
+.header-image {
+    width: 100%; /* Ensures the image spans the full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Optional: Adds slightly rounded corners */
+    margin-bottom: 20px; /* Adds spacing below the image */
+}
+
+/* If you want the image as a background */
+.header {
+    background-image: url('assets/images/header-image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    height: 100vh; /* Adjust based on desired header height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white; /* Ensures text is readable */
+}
+
+/* Optional: Style for responsive design */
+@media (max-width: 768px) {
+    .header {
+        height: auto; /* Allow header height to adjust for smaller screens */
+        padding: 20px;
+    }
+
+    .header-image {
+        margin-bottom: 15px; /* Adjust spacing for smaller screens */
+    }
+}
+
+
 
