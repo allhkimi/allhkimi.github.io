@@ -10,3 +10,23 @@ document.querySelectorAll('.view-more').forEach(button => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const currentTheme = localStorage.getItem('theme') || 'light-mode';
+  document.body.classList.add(currentTheme);
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const toggleButton = document.getElementById('theme-toggle');
+  const currentTheme = localStorage.getItem('theme') || 'light-mode';
+
+  document.body.classList.add(currentTheme);
+
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+    document.body.classList.toggle('dark-mode');
+
+    const newTheme = document.body.classList.contains('light-mode') ? 'light-mode' : 'dark-mode';
+    localStorage.setItem('theme', newTheme);
+  });
+});

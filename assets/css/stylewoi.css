@@ -84,10 +84,14 @@
     margin-bottom: 10px;
 }
 
+/* Light mode styles */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
 
-
-
-
-
-
-
+/* Dark mode styles */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
