@@ -11682,3 +11682,81 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* Basic styling for the section */
+#year1sem1 {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+/* Styling for the container */
+#year1sem1 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for card titles */
+#year1sem1 .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styling for subtitle text */
+#year1sem1 .subtitle {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+#year1sem1 .view-more {
+  background-color: #FA2A55; /* Updated button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+#year1sem1 .view-more:hover {
+  background-color: #e2264b; /* Darker shade for hover effect */
+}
+
+/* More content section */
+#year1sem1 .more-content {
+  display: none;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #343a40;
+}
+
+/* Card header with icon */
+#year1sem1 .card-header.has-icon i {
+  font-size: 24px;
+  color: #dc3545;
+}
+
+/* Card style */
+#year1sem1 .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#year1sem1 .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  #year1sem1 .card-body {
+      padding: 20px;
+  }
+
+  #year1sem1 .view-more {
+      width: 100%;
+  }
+}
+
